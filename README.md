@@ -1,4 +1,4 @@
-# A test task
+# A hospital appointment booking form
 Description of the task can be found in the pdf.
 
 ## Install requirements:
@@ -7,7 +7,7 @@ Description of the task can be found in the pdf.
 ## Run tests:
 `python manage.py test`
 
-## Migrate
+## Migrate:
 `python manage.py migrate`
 
 ## Run!
