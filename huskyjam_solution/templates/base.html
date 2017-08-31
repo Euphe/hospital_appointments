@@ -1,0 +1,29 @@
+{% load bootstrap3 %}
+<html>
+	<head>
+		<script
+		  src="https://code.jquery.com/jquery-3.2.1.min.js"
+		  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+		  crossorigin="anonymous"></script>
+		
+
+		{% bootstrap_css %}
+		{% bootstrap_javascript %}
+
+		{% block scripts %}
+
+		{% endblock %}
+	</head>
+
+	{% bootstrap_messages %}
+	<body>
+		<div class='container'>
+
+		<div style='margin:auto;width:50%;margin-top:10%;'>
+		{% block content %}
+
+		{% endblock %}
+		</div>
+		</div>
+	</body>
+</html>
